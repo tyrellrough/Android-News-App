@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="100dp" android:padding="6dip">
+
+    <Button
+        android:id="@+id/buttonNotify"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/buttonFollow"
+        android:text="Notifications On"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/textewsTopic"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/buttonNotify"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonFollow"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:text="Follow"
+        app:layout_anchorGravity="center"
+        android:textSize="11sp"/>
+
+</RelativeLayout>
